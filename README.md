@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains sample code that invokes a Lambda function on a schedule using EventBridge Scheduler.
+This repository contains sample code that invokes a Lambda function on a schedule using CloudWatch Event Scheduler.
 
 ## Usage
 
