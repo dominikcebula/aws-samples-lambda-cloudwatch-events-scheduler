@@ -6,7 +6,17 @@ This repository contains sample code that invokes a Lambda function on a schedul
 
 ## Usage
 
-TBD
+### Build project
+
+```shell
+mvn clean install
+```
+
+### Deploy Lambda with scheduler
+
+```shell
+terraform apply
+```
 
 ## Author
 
