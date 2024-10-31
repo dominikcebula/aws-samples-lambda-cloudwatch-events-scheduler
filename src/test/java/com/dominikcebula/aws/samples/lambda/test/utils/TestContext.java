@@ -14,11 +14,11 @@ public class TestContext implements Context {
     }
 
     public String getLogGroupName() {
-        return "/aws/lambda/test-function";
+        return "/aws/lambda/aws-samples-lambda-eventbridge-scheduler";
     }
 
     public String getLogStreamName() {
-        return "test-function-log-stream";
+        return "2024/10/31/[$LATEST]0cc16d0e192f4d44b8df89dd848db470";
     }
 
     public String getFunctionName() {
@@ -26,7 +26,7 @@ public class TestContext implements Context {
     }
 
     public String getFunctionVersion() {
-        return "1.0";
+        return "$LATEST";
     }
 
     public String getInvokedFunctionArn() {
