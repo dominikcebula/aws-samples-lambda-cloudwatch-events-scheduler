@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "lambda_function_name" {
-  default = "aws-samples-lambda-eventbridge-scheduler"
+  default = "aws-samples-lambda-cloudwatch-events-scheduler"
 }
 
 variable "lambda_function_handler" {
@@ -11,7 +11,7 @@ variable "lambda_function_handler" {
 }
 
 variable "lambda_payload_filename" {
-  default = "../target/aws-samples-lambda-eventbridge-scheduler-1.0-SNAPSHOT.jar"
+  default = "../target/aws-samples-lambda-cloudwatch-events-scheduler-1.0-SNAPSHOT.jar"
 }
 
 variable "lambda_runtime" {

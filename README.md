@@ -1,4 +1,4 @@
-# AWS Sample - Lambda with EventBridge Scheduler
+# AWS Sample - Lambda with CloudWatch Events Scheduler
 
 ## Introduction
 

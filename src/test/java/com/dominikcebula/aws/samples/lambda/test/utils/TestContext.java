@@ -14,7 +14,7 @@ public class TestContext implements Context {
     }
 
     public String getLogGroupName() {
-        return "/aws/lambda/aws-samples-lambda-eventbridge-scheduler";
+        return "/aws/lambda/aws-samples-lambda-cloudwatch-events-scheduler";
     }
 
     public String getLogStreamName() {

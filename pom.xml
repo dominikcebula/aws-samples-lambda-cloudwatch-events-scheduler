@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dominikcebula.aws.samples</groupId>
-    <artifactId>aws-samples-lambda-eventbridge-scheduler</artifactId>
+    <artifactId>aws-samples-lambda-cloudwatch-events-scheduler</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
