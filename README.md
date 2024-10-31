@@ -18,6 +18,8 @@ mvn clean install
 terraform apply
 ```
 
+(above command needs to be executed from `deployment` folder)
+
 ## Author
 
 Dominik Cebula
