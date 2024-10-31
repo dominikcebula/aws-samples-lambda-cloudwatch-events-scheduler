@@ -11,6 +11,7 @@ resource "aws_scheduler_schedule" "lambda_scheduler" {
   target {
     arn      = aws_lambda_function.java_lambda_function.arn
     role_arn = aws_iam_role.scheduler_role.arn
+    input = jsonencode({ "input" : "Message from EventBridge Scheduler!" })
   }
 }
 
@@ -26,7 +27,6 @@ data "aws_iam_policy_document" "scheduler_role_policy_document" {
     principals {
       type = "Service"
       identifiers = ["scheduler.amazonaws.com"]
-
     }
   }
 }
